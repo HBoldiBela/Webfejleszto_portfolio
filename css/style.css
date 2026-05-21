@@ -18,6 +18,18 @@ body{
     color: lightgray;
 }
 
+.p1{
+    background-color: rgb(0, 83, 131);
+}
+
+.p2{
+    background-color: rgb(0, 114, 44);
+}
+
+.p3{
+    background-color: rgb(97, 0, 0);
+}
+
 img{
     display: block;
     width: 200px;
@@ -40,6 +52,7 @@ img{
 .card:hover{
     transform: scale(1.05);
     color: red;
+    border: 5px solid rgb(116, 0, 0);
 }
 
 .card-text{
@@ -56,13 +69,11 @@ img{
     color: red;
 }
 
-/* Hero és kapcsolat rész */
 .container-fluid{
     background-color: #3300008a !important;
     color: rgb(255, 166, 166) !important;
 }
 
-/* Navbar */
 .navbar{
     border-bottom: 2px solid #444;
 }
